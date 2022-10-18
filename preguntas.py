@@ -12,10 +12,6 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 
 """
 import csv
-from sys import api_version
-from typing import Container
-from unicodedata import numeric
-from unittest.runner import _ResultClassType
 
 def leer():
     lista=[]
