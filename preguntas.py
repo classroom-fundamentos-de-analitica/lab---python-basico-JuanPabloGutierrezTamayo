@@ -399,15 +399,13 @@ def pregunta_12():
     """
     lista = leer()
     result={}
-    letras= ['A','B','C','D','E']
-
+    letras= ["A","B","C","D","E"]
     for l in letras:
-
         contar = 0
         for a in lista:
             if(a[0]==l):
-                lista = a[4].split(",")
-                for val in lista: 
+                lista2 = a[4].split(",")
+                for val in lista2: 
                     s= val.split(":")
                     contar+=int(s[1])
         result.update({l:contar})
